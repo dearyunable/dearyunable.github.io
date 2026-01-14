@@ -1,12 +1,20 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: /
+  - title: "Tag"
+    url: /tags/
+  - title: "Category"
+    url: /categories/
+  
+docs:
+  - title: "Tech Stack"
+    url: /techStack/
+    category_name: "techStack"
+    children:
+      - title: "AI"
+        url: /techStack/ai/
+        category_name: "ai"
+      - title: "ETC"
+        url: /techStack/etc/
+        category_name: "etc"
